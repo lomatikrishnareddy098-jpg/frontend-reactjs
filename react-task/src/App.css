@@ -1,0 +1,66 @@
+.app {
+    padding: 30px;
+}
+
+.app h1 {
+    margin-bottom: 25px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    color: #172033;
+}
+
+.project-card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #172033;
+}
+
+.label-value {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.value {
+    color: #172033;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.in-progress {
+    background-color: #fff3cd;
+}
+
+.completed {
+    background-color: #d1e7dd;
+}
+
+.planning {
+    background-color: #cfe2ff;
+}
+
+.cancelled {
+    background-color: #f8d7da;
+}
